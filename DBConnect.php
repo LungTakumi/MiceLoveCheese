@@ -1,9 +1,9 @@
 <?php #DBConnect.php
 $conn = new mysqli();
-$host ="ec2-54-225-100-236.compute-1.amazonaws.com";
-$user ="niclzsjyoobfnu";
-$password = "86vVCQmpq47Z6893OZ5qwYdSx1";
-$dbname = "d2d2lsqfkquc0m";
+$host ="localhost";
+$user ="root";
+$password = "";
+$dbname = "project_1";
 $conn -> connect($host, $user, $password, $dbname);
 if (mysqli_connect_errno()) {
  echo("Failed to connect, the error message is : ".
